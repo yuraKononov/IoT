@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1513723279 source:/home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/main.cpp
+	"thinger/thinger.h"
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/thinger.h
+	"thinger_client.h"
+	"thinger_tls_client.h"
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/thinger_client.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/socket.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<fcntl.h>
+	<netinet/tcp.h>
+	<netinet/in.h>
+	<netdb.h>
+	<unistd.h>
+	"core/thinger.h"
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/core/thinger.h
+	"pson.h"
+	"thinger_map.hpp"
+	"thinger_resource.hpp"
+	"thinger_message.hpp"
+	"thinger_encoder.hpp"
+	"thinger_decoder.hpp"
+	"thinger_message.hpp"
+	"thinger_io.hpp"
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/core/pson.h
+	<stdint.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+	<string>
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/core/thinger_map.hpp
+	<string.h>
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/core/thinger_resource.hpp
+	"thinger_map.hpp"
+	"pson.h"
+	"thinger_message.hpp"
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/core/thinger_message.hpp
+	"pson.h"
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/core/thinger_encoder.hpp
+	"thinger_message.hpp"
+	"thinger_io.hpp"
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/core/thinger_io.hpp
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/core/thinger_decoder.hpp
+	"pson.h"
+	"thinger_message.hpp"
+
+1513722358 /home/jurgen/IoT_Lab1_Thinger++_Ubuntu/Linux-Client-master/src/thinger/thinger_tls_client.h
+	"thinger_client.h"
+	<openssl/ssl.h>
+
